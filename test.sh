@@ -1,7 +1,6 @@
 #! /bin/bash
 echo "Enter two numbers"
-read num1
-read num2
+read num1 num2
 sum=`expr $num1 + $num2`
 echo $sum
 
